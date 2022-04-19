@@ -1,0 +1,86 @@
+/*Estilo*/
+
+#centralizar{
+    display: flex;
+     justify-content: center;
+      background-color: rgb(0, 0, 0);
+}
+
+#corpo{
+    position: absolute; 
+     left:850px;
+}
+.part{
+    visibility: hidden;
+}
+#rosto2{
+    position: absolute; 
+     left:40px; 
+      z-index: 1; 
+       top:10px
+}
+
+#tronco{
+    position: absolute; 
+     left: 43px; 
+      top:75px
+}
+
+#bracoe{
+    position: absolute; 
+     z-index: 2; 
+      left:15px; 
+       top:82px
+}
+
+#bracod{
+    position: absolute; 
+     z-index: 2; 
+      left:94px; 
+       top:82px
+}
+
+#pernae{
+    position: absolute; 
+     z-index: 2; 
+      left:29px; 
+       top:185px
+}
+
+#pernad{
+    position: absolute; 
+     z-index: 2; 
+      left:75px; 
+       top:185px
+}
+
+#painel{
+    position: absolute; 
+     top:400px;
+}
+
+.titulo{
+    list-style-type: none;
+     color: rgb(0, 0, 0);
+      font-size: 100px;
+       font-style: italic;
+        font-family: 'Raleway', sans-serif;
+}
+
+#jogada{
+    position: absolute; 
+     top:500px;
+}
+
+#letra{
+    text-align: center;
+}
+
+.btn-btn-secundary{
+    size: 1;
+}
+
+.rosto2{
+    height: 100px;
+    visibility: hidden;
+}
